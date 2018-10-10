@@ -8,9 +8,6 @@ import './index.css';
 import { CircleLoader } from 'react-spinners';
 
 class Home extends Component {
-  constructor(){
-    super();
-  }
   componentWillMount(){
     this.props.getUsers();
   }
